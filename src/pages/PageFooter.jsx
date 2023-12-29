@@ -22,7 +22,7 @@ const PageFooter = () => {
   ];
   return (
     <>
-      <section className="bg-[#3B3B3B] flex flex-col lg:flex-row lg:gap-4 lg:justify-around gap-6 p-4 ">
+      <section className="bg-[#3B3B3B] flex flex-col lg:flex-row lg:gap-4 lg:justify-around gap-20  p-20 ">
         <div className="flex flex-col gap-4">
           <div className="flex gap-2 text-white font-bold ">
             <img src={logo} alt="logo" />

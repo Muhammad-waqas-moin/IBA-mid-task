@@ -31,7 +31,7 @@ const InputGrups = () => {
 
   return (
     <div>
-      <div className="flex flex-col pb-4 justify-center items-center gap-5">
+      <div className="flex flex-col pb-4 justify-start items-center gap-5">
         {obj &&
           obj.map((item, index) => {
             return (

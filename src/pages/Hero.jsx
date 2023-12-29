@@ -4,9 +4,9 @@ import InputGrups from "../Components/InputGrups";
 
 const Hero = () => {
   return (
-    <section className="flex flex-col    md:flex-row ">
+    <section className="flex flex-col  md:flex-row ">
       {/* left side section */}
-      <div className=" ">
+      <div className="w-[78%] ">
         <img
           src={backgroundImg}
           className=" w-full h-screen object-cover  h-54"
@@ -15,11 +15,11 @@ const Hero = () => {
       {/* right side section */}
       <div className="bg-[#2B2B2B] text-white">
         <div className="py-8 px-4">
-          <div className="flex flex-col gap-4 justify-start items-center start">
+          <div className="flex flex-col flex-end gap-4 justify-start items-center start">
             <h1 className="text-3xl uppercase px-0  font-sans">
               Create Account
             </h1>
-            <p className="px-0 ">
+            <p className=" flex justify-center   ">
               Welcome! enter your details and start creating, collecting and
               selling NFTs.
             </p>
