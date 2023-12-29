@@ -1,12 +1,10 @@
 import React, { useState } from "react";
-// import CommonButton from "../Commen/figmaTaskCommon/CommonButton";
-// import BarIcon from "../Commen/figmaTaskCommon/BarIcon";
-// import logo from "../assets/NFTMarketplace.svg"
+
 import logo from "../assets/Storefront.svg";
 import textlogo from "../assets/LogoText.svg";
 import bar from "../assets/BurgerMenu.svg";
 import user from "../assets/User.svg";
-// import baricon from "../assets/BurgerMenu.svg";
+
 const Navbar = () => {
   const NavbarLinks = [
     {
@@ -24,11 +22,6 @@ const Navbar = () => {
       link: "#wellet",
       icon: false,
     },
-    // {
-    //   name: "Sign Up",
-    //   link: "#sigup",
-    //   icon: true,
-    // },
   ];
 
   const [isOpen, setIsOpen] = useState(false);
@@ -50,7 +43,6 @@ const Navbar = () => {
                 return <li key={index}>{item.name}</li>;
               })}
             <li className="flex justify-center items-center gap-4 h-14 rounded-lg p-4 bg-[#A259FF]">
-              {/* <i class="fa-regular fa-user"></i> */}
               <img src={user} alt="" />
               <p>Sign Up</p>
             </li>

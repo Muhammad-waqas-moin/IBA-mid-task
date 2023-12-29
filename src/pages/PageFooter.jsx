@@ -5,8 +5,7 @@ import discord from "../assets/DiscordLogo.svg";
 import TwitterLogo from "../assets/TwitterLogo.svg";
 import YoutubeLogo from "../assets/YoutubeLogo.svg";
 import InstagramLogo from "../assets/InstagramLogo.svg";
-import InputBox1 from "../Components/inputBox1";
-import SubcribeButton from "../Components/SubcribeButton";
+
 import EnvelopeSimple from "../assets/EnvelopeSimple.svg";
 const PageFooter = () => {
   const obj = [

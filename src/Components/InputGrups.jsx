@@ -1,7 +1,4 @@
 import React from "react";
-// import InputTask from "../Components/Commen/inputTask";
-// import Search from "../Components/Commen/Search";
-// import MicIcon from "../Components/Commen/MicIcon";
 import user from "../assets/User.svg";
 import evenlop from "../assets/EnvelopeSimple.svg";
 import SingleInput from "./SingleInput";
@@ -23,10 +20,6 @@ const InputGrups = () => {
       Src: password,
       placeholder: "Confrim Password",
     },
-    // {
-    //   Src: "fa-solid fa-user-plus",
-    //   placeholder: "signUp",
-    // },
   ];
 
   return (

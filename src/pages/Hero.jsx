@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <section className="flex flex-col  md:flex-row ">
       {/* left side section */}
-      <div className="w-[78%] ">
+      <div className="w-full ">
         <img
           src={backgroundImg}
           className=" w-full h-screen object-cover  h-54"
